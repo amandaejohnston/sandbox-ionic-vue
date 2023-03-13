@@ -28,7 +28,8 @@ import { defineComponent } from 'vue';
 import { Autoplay, Keyboard, Pagination, Scrollbar, Zoom } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/vue/swiper-vue.js';
 
-import 'swiper/swiper.min.css';
+// import 'swiper/swiper.min.css';
+import 'swiper/css'; // error
 import 'swiper/modules/autoplay/autoplay.min.css';
 import 'swiper/modules/keyboard/keyboard.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
